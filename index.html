@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>WeatherApp</title>
+</head>
+<body>
+    <!-- Nav with logo // searchbar // by default the app needs to input the current location data -->
+    <nav>
+        <div class="logo">
+            <img src="./img/logo2.svg" alt="logo">
+            <h1>WeatherApp</h1>
+        </div>
+        <div class="search">
+            <input type="text" id="searchBar" placeholder="City Temperature Search...">
+            <button id="searchButton">Search</button>
+        </div>
+    </nav>
+    <!-- City tracker with a big font size -->
+    <div class="city">
+        <h1 id="city">Dakar</h1>
+    </div>
+    <!-- Calendar like table with seven days, just input the date of the concerned day -->
+    <div class="content"></div>
+    <footer>
+        <div class="logo">
+            <img src="./img/logo2.svg" alt="logo">
+            <h1>WeatherApp</h1>
+        </div>
+        <div class="copy">
+            <p>WeatherApp &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
